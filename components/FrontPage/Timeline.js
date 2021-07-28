@@ -28,7 +28,7 @@ export default function Timeline(){
                 return (
                   <div key={"TargetTimeline-event-" + i} className={ i % 2 == 0 ? "mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline" : "mb-8 flex justify-between items-center w-full right-timeline"}>
                     <div className="order-1  w-5/12"></div>
-                    <div className={"order-1 w-5/12 px-1 py-4 " + (i % 2 === 0 ? "text-right":"")}>
+                    <div className={"order-1 w-5/12 px-4 py-4 " + (i % 2 === 0 ? "text-right":"")}>
                       <p className="mb-3 text-base text-yellow-300">{
                         item.f_date ? (<>{item.s_date + " - " + item.f_date}</>) : (<>{item.s_date}</>)
                       }</p>

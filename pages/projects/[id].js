@@ -1,18 +1,24 @@
+import { useState } from 'react';
 import { useRouter } from 'next/router';
 import SectionContainer from '@/components/SectionContainer';
 import LayoutWrapper from '@/components/LayoutWrapper';
 import siteText from '@/data/siteText';
-
+import ExternalLink from '@/components/Projects/ExternalLink';
+import Details from '@/components/Projects/Details';
+import Description from '@/components/Projects/Description';
 
 const Project = () => {
-  const router = useRouter()
-  const { id } = router.query
+  const router = useRouter();
+  const [tabState,setState] = useState([true,false]);
+  const { id } = router.query;
 
   if(!id){
-    return(null)
+    return(null);
   }
 
-  if (id >= siteText.projects.projects_description.length){
+  const project_data = siteText.projects.projects_description.find(item => item.id == id);
+
+  if (!project_data){
     return (
       <LayoutWrapper abs={true}>
         <SectionContainer>
@@ -24,37 +30,45 @@ const Project = () => {
       </LayoutWrapper>
     )
   }
+  //const tabs = ["Description","Reviews","Details"];
+  const tabs = ["Description","Details"];
 
-  const project_data = siteText.projects.projects_description[id];
-
+  const swap_tab = (i) => {
+    const new_tab_state = [false,false];
+    new_tab_state[i] = true;
+    setState(new_tab_state);
+  }
 
   return (
     <LayoutWrapper>
-      <section className="text-gray-600 body-font overflow-hidden">
+      <section className="text-gray-600 dark:text-gray-400 dark:bg-gray-900 body-font overflow-hidden py-10">
         <div className="container max-w-3xl px-4 mx-auto sm:px-6 xl:max-w-5xl xl:px-0">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
             <div className="lg:w-5/5 w-full flex flex-col">
               <h2 className="text-sm title-font text-gray-500 tracking-widest">PROJECT NAME</h2>
-              <h1 className="text-gray-900 text-3xl title-font font-medium mb-4">{project_data.name}</h1>
+              <h1 className="text-gray-900 dark:text-white text-3xl title-font font-medium">{project_data.name}</h1>
+              <h3 className="text-xs title-font text-gray-500 tracking-widest mb-4">{project_data.date}</h3>
             </div>
             <div className="lg:w-3/5 w-full lg:pr-10 mb-6 lg:mb-0">
               <div className="flex mb-4">
-                <a className="flex-grow text-blue-500 border-b-2 border-blue-500 py-2 text-lg px-1">Description</a>
-                <a className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Reviews</a>
-                <a className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Details</a>
+                {tabs.map((item,i) => {
+                  if (tabState[i])
+                    return (
+                      <div key={'project-details-tab-' + i} className="flex-grow text-blue-500 dark:text-indigo-400 border-b-2 dark:border-indigo-400 border-blue-500 py-2 text-lg">{item}</div>
+                    )
+                  return (
+                    <div key={'project-details-tab-' + i} onClick={() => swap_tab(i)} className="flex-grow border-b-2 border-gray-300 dark:border-gray-800 hover:cursor-pointer py-2 text-lg px-1">{item}</div>
+                  )
+                })}
               </div>
-              <p className="leading-relaxed mb-4">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam inxigo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean.</p>
-              <div className="flex border-t border-gray-200 py-2">
-                <span className="text-gray-500">Color</span>
-                <span className="ml-auto text-gray-900">Blue</span>
-              </div>
-              <div className="flex border-t border-gray-200 py-2">
-                <span className="text-gray-500">Size</span>
-                <span className="ml-auto text-gray-900">Medium</span>
-              </div>
-              <div className="flex border-t border-b mb-6 border-gray-200 py-2">
-                <span className="text-gray-500">Quantity</span>
-                <span className="ml-auto text-gray-900">4</span>
+              { tabState[0] && (<Description text={project_data.description} />) }
+              { tabState[1] && (<Details lang={project_data.languages} tec={project_data.technologies} category={project_data.subtitle} tags={project_data.tags} />) }
+              <div className="w-full flex justify-center">
+                {project_data.links.map((item,i) => {
+                  return (
+                    <ExternalLink href={item.href} type={item.type} s_text={item.stext} h_text={item.htext} />
+                  )
+                })}
               </div>
             </div>
             <img alt="ecommerce" className="lg:w-2/5 w-full h-full object-cover object-center rounded" src={project_data.img} />

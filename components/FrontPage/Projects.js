@@ -3,6 +3,7 @@ import { Spring, animated } from 'react-spring';
 import { InView } from 'react-intersection-observer';
 import React , { useState } from 'react';
 import siteText from '@/data/siteText';
+import Link from "next/link";
 
 
 const Projects = (props) => {
@@ -30,12 +31,14 @@ const Projects = (props) => {
                       {
                         styles =>
                         <animated.div style={styles} className="xl:w-1/3 md:w-1/2 p-4">
-                          <div className="bg-white dark:bg-gray-800 dark:bg-opacity-40 hover:scale-125 hover:shadow-lg p-6 rounded-lg">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src={siteText.projects.projects_description[item].img} alt="content" />
-                            <h3 className="tracking-widest text-blue-500 dark:text-indigo-400 text-xs font-medium title-font">{siteText.projects.projects_description[item].subtitle}</h3>
-                            <h2 className="text-lg text-gray-900 dark:text-white font-medium title-font mb-4">{siteText.projects.projects_description[item].name}</h2>
-                            <p className="leading-relaxed text-base">{siteText.projects.projects_description[item].short_description}</p>
-                          </div>
+                          <Link href={`/projects/${siteText.projects.projects_description[item].id}`}>
+                            <div className="bg-white dark:bg-gray-800 dark:bg-opacity-40 hover:scale-125 hover:cursor-pointer hover:shadow-lg p-6 rounded-lg">
+                              <img className="h-40 rounded w-full object-cover object-center mb-6" src={siteText.projects.projects_description[item].img} alt="content" />
+                              <h3 className="tracking-widest text-blue-500 dark:text-indigo-400 text-xs font-medium title-font">{siteText.projects.projects_description[item].subtitle}</h3>
+                              <h2 className="text-lg text-gray-900 dark:text-white font-medium title-font mb-4">{siteText.projects.projects_description[item].name}</h2>
+                              <p className="leading-relaxed text-base">{siteText.projects.projects_description[item].short_description}</p>
+                            </div>
+                          </Link>
                         </animated.div>
                       }
                     </Spring>
