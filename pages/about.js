@@ -17,7 +17,7 @@ const About = (props) => {
           </div>
           <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
             <div className="flex flex-col items-center pt-8 space-x-2">
-              <img src={siteMetadata.image} alt="avatar" className="w-48 h-48 rounded-full" />
+              <img src={siteMetadata.image} alt="avatar" className="w-48 h-48 rounded-md" />
               <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
                 {siteMetadata.author}
               </h3>
@@ -30,6 +30,7 @@ const About = (props) => {
                 <SocialIcon kind="youtube" href={siteMetadata.youtube} />
                 <SocialIcon kind="linkedin" href={siteMetadata.linkedin} />
                 <SocialIcon kind="twitter" href={siteMetadata.twitter} />
+                <SocialIcon kind="resume" href={siteMetadata.resume} />
               </div>
             </div>
             <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">

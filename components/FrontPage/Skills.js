@@ -1,5 +1,6 @@
-import SectionContainer from '@/components/SectionContainer'
-import skills from '@/data/skills'
+import SectionContainer from '@/components/SectionContainer';
+import skills from '@/data/skills';
+import siteText from '@/data/siteText';
 import { Spring, animated } from 'react-spring';
 import { InView } from 'react-intersection-observer';
 import React , { useState } from 'react';
@@ -50,7 +51,7 @@ const Skills = (props) => {
       <SectionContainer>
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20">
-            <p className="lg:w-1/2 w-full leading-relaxed text-gray-500 dark:text-gray-400 dark:text-opacity-90 mb-6 lg:mb-0">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+            <p className="lg:w-1/2 w-full leading-relaxed text-gray-500 dark:text-gray-400 dark:text-opacity-90 mb-6 lg:mb-0">{siteText.skills.description}</p>
             <div className="lg:w-1/2 text-right flex flex-col items-end w-full mb-6 lg:mb-0">
               <h1 className="mb-4 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-200 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
                 Skills

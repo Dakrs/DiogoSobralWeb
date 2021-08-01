@@ -12,6 +12,9 @@
       "Since I was a kid, my parents always encouraged me to have good grades. I have been at the top of my classes since I can remember, although when I was in my third year of college I figured out that grades are not everything and decided to developed other soft-skills. I joined an organization called UDREAM, which taught me how to be a better version of myself and to empower others around me. Since then, I have been focusing on improving leadership skills and actively participated in programs that forced me to be in distinct environments and to meet different persons."
     ]
   },
+  "skills": {
+    "description": "Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag."
+  },
   "TargetTimeline": {
     "subtitle": "Working Process",
     "title": "Journey",
@@ -119,10 +122,17 @@
         "languages": ["JavaScript"],
         "description": "",
         "short_description": "A website built for the annual event, Meeting Braga.",
-        "subtitle": "Web Solution",
+        "subtitle": "Web Develpment",
         "tags": ["Web Dev"],
-        "img": "/images/projects/totasky.png",
-        "links": []
+        "img": "/images/projects/meetingbraga.png",
+        "links": [
+          {
+            "type": "website",
+            "href": "https://meeting-braga.vercel.app",
+            "stext": "Find out more at",
+            "htext": "meeting braga"
+          }
+        ]
       }
     ]
   }
