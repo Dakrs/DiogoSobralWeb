@@ -1,4 +1,5 @@
 import 'tailwindcss/tailwind.css'
+import 'react-multi-carousel/lib/styles.css';
 import '@/css/periodictable.css'
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'

@@ -4,6 +4,44 @@ import { Spring, animated } from 'react-spring';
 import { InView } from 'react-intersection-observer';
 import React , { useState } from 'react';
 
+/**
+<InView>
+  {({ inView, ref, entry }) => (
+    <div ref={ref} className="overflow-x-scroll">
+      <Spring opacity={(inView || hasRan) ? 1 : 0 } onStart={(e,p) => setRan(true)} config={{ duration: 500 }}>
+        {styles => (
+          <animated.div style={styles} className="periodic-table">
+            <div className="empty-spacer-1"></div>
+            <div className="empty-spacer-2"></div>
+
+            {
+              skills.skills.map((i,index) => {
+                return (
+                  <div key={`periodic-${i.sign}-${index}`} className={`periodic-element ${i.type}`} data-description={i.desc}>
+                      <div className="periodic-element-inner">
+                          <div className="title">{i.sign}</div>
+                          <div className="description">{i.name}</div>
+                      </div>
+                  </div>
+                )
+              })
+            }
+          </animated.div>
+        )}
+      </Spring>
+      <div className="legend-table">
+        <div className="legend-table__wrapper">
+            <span className="legend-table__marker social-media"></span><span className="legend-table__text bg-gray-900 dark:bg-white">General Stuff</span>
+            <span className="legend-table__marker intense-work"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Front-End</span>
+            <span className="legend-table__marker just-trying"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Performance</span>
+            <span className="legend-table__marker fun-stuff"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Back-End</span>
+        </div>
+      </div>
+    </div>
+  )}
+</InView>
+*/
+
 const Skills = (props) => {
   const [hasRan,setRan] = useState(false);
 
@@ -20,41 +58,33 @@ const Skills = (props) => {
               <div className="h-1 w-20 bg-blue-500 dark:bg-indigo-400 rounded"></div>
             </div>
           </div>
-          <InView>
-            {({ inView, ref, entry }) => (
-              <div ref={ref} className="overflow-x-scroll">
-                <Spring opacity={(inView || hasRan) ? 1 : 0 } onStart={(e,p) => setRan(true)} config={{ duration: 500 }}>
-                  {styles => (
-                    <animated.div style={styles} className="periodic-table">
-                      <div className="empty-spacer-1"></div>
-                      <div className="empty-spacer-2"></div>
+          <div className="overflow-x-scroll">
+            <div className="periodic-table">
+              <div className="empty-spacer-1"></div>
+              <div className="empty-spacer-2"></div>
 
-                      {
-                        skills.skills.map((i,index) => {
-                          return (
-                            <div key={`periodic-${i.sign}-${index}`} className={`periodic-element ${i.type}`} data-description={i.desc}>
-                                <div className="periodic-element-inner">
-                                    <div className="title">{i.sign}</div>
-                                    <div className="description">{i.name}</div>
-                                </div>
-                            </div>
-                          )
-                        })
-                      }
-                    </animated.div>
-                  )}
-                </Spring>
-                <div className="legend-table">
-                  <div className="legend-table__wrapper">
-                      <span className="legend-table__marker social-media"></span><span className="legend-table__text bg-gray-900 dark:bg-white">General Stuff</span>
-                      <span className="legend-table__marker intense-work"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Front-End</span>
-                      <span className="legend-table__marker just-trying"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Performance</span>
-                      <span className="legend-table__marker fun-stuff"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Back-End</span>
-                  </div>
-                </div>
+              {
+                skills.skills.map((i,index) => {
+                  return (
+                    <div key={`periodic-${i.sign}-${index}`} className={`periodic-element ${i.type}`} data-description={i.desc}>
+                        <div className="periodic-element-inner">
+                            <div className="title">{i.sign}</div>
+                            <div className="description">{i.name}</div>
+                        </div>
+                    </div>
+                  )
+                })
+              }
+            </div>
+            <div className="legend-table">
+              <div className="legend-table__wrapper">
+                  <span className="legend-table__marker social-media"></span><span className="legend-table__text bg-gray-900 dark:bg-white">General Stuff</span>
+                  <span className="legend-table__marker intense-work"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Front-End</span>
+                  <span className="legend-table__marker just-trying"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Performance</span>
+                  <span className="legend-table__marker fun-stuff"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Back-End</span>
               </div>
-            )}
-          </InView>
+            </div>
+          </div>
         </div>
       </SectionContainer>
     </section>

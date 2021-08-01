@@ -66,7 +66,7 @@ const Project = () => {
               <div className="w-full flex justify-center">
                 {project_data.links.map((item,i) => {
                   return (
-                    <ExternalLink href={item.href} type={item.type} s_text={item.stext} h_text={item.htext} />
+                    <ExternalLink key={`project-link-${project_data.id}-${i}`} href={item.href} type={item.type} s_text={item.stext} h_text={item.htext} />
                   )
                 })}
               </div>
