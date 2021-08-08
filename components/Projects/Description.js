@@ -1,6 +1,12 @@
+import parse from 'html-react-parser';
+
+// <p className="leading-relaxed mb-4">{parse(text)}</p>
+
 const Description = ({text}) => {
   return (
-    <p className="leading-relaxed mb-4">{text}</p>
+    <>
+      {parse(text)}
+    </>
   )
 }
 

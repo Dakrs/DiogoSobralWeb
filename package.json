@@ -12,6 +12,7 @@
     "@svgr/webpack": "^5.5.0",
     "@tailwindcss/forms": "^0.3.3",
     "@tailwindcss/typography": "^0.4.1",
+    "html-react-parser": "^1.2.7",
     "next": "latest",
     "next-svgr": "^0.0.2",
     "next-themes": "^0.0.15",

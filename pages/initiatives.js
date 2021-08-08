@@ -3,6 +3,7 @@ import SectionContainer from '@/components/SectionContainer';
 import SocialIcon from '@/components/social-icons';
 import siteText from '@/data/siteText';
 import LayoutWrapper from '@/components/LayoutWrapper';
+import parse from 'html-react-parser';
 
 import { useState } from 'react';
 
@@ -152,8 +153,109 @@ const FullTimeline = () => (
   </>
 );
 
+/**
+<Year>2021</Year>
+<ul>
+  <Step title="Head of Developer Relations at Vercel 👨‍👩‍👧‍👦">
+    I'm extremely excited about this new role helping grow the Next.js and
+    Vercel community.
+  </Step>
+  <Step title="10,000 YouTube Subscribers 🎥">
+    After many years on YouTube, I've started to figure this whole video
+    thing out.
+  </Step>
+  <Step title="5,000 Newsletter Subscribers 💌">
+    If you want to stay up-to-date on my latest work, it usually hits the
+    newsletter first. I try to send an update once a month.
+  </Step>
+</ul>
+<Divider />
+<Year>2020</Year>
+<ul>
+  <Step title="Joined ▲Vercel">
+    I'm excited to help grow the Next.js community and continue building
+    the optimal workflow for front-end developers.
+  </Step>
+  <Step title="Launched React 2025 💯">
+    Building a real SaaS application, from zero to production.
+  </Step>
+  <Step title="Emerging Technology Leader of the Year 🏆">
+    I was extremely honored to be one of five finalists nominated for this
+    award at the 2020 Prometheus Awards.
+  </Step>
+  <Step title="Got Married 🥳">
+    Great year for a wedding, huh? We had a small ceremony with family and
+    it was better than I could have imagined.
+  </Step>
+  <Step title="Became a Tech Lead 👨🏻‍💻">
+    Starting at the beginning of 2020, I moved into a tech leadership role
+    on an e-commerce development team at Hy-Vee.
+  </Step>
+  <Step title="Mastering Next.js made $10K 📈">
+    I taught hundreds of students from all over the world how to build web
+    applications. Exceeded my wildest expectations.
+  </Step>
+</ul>
+<Divider />
+<Year>2019</Year>
+<ul>
+  <Step title="Software Engineer III ✨">
+    Led design system architecture at Hy-Vee, building new components with
+    React, Storybook, and styled-components.
+  </Step>
+  <Step title="Mastering Next.js ⚛️">
+    Launched a 50+ lesson video course for building apps with Next.js and
+    React.
+  </Step>
+  <Step title="Bought a Townhome 🏡">
+    Who wants to do yardwork? Not me. Plus, Allie and I love living
+    downtown Des Moines.
+  </Step>
+  <Step title="Got Engaged 💍">
+    I asked my now fiancée, Allie, to marry me. She said yes! September
+    was a busy month, to say the least – I also spoke at three events and
+    sold my condo.
+  </Step>
+  <Step title="Spoke at Talent42 🎤">
+    I spoke to over 100 technical recruiting leaders from across the
+    country at Talent42 in Seattle during a 45-minute keynote.
+  </Step>
+</ul>
+*/
+
+const draw = (items) => {
+  return (
+    <>
+      { items.map((year,index) => {
+        return (
+          <div key={`initiative-year-${year}`}>
+            <Year>{year}</Year>
+            <ul>
+            { siteText.initiatives[year].map((item,i)=> {
+                return(
+                  <Step key={`initiative-${year}-${i}`} title={item.title}>
+                    {parse(item.text)}
+                  </Step>
+                )
+              })
+            }
+            </ul>
+            {(index+1) < items.length && (<Divider />)}
+          </div>
+        )
+      })}
+    </>
+  )
+}
+
 const Initiatives = (props) => {
   const [isShowingFullTimeline, showFullTimeline] = useState(false);
+
+  const keys = Object.keys(siteText.initiatives).reverse();
+  const active = keys.slice(0, 3);
+  const inactive = keys.slice(3);
+
+  console.log(inactive);
 
   return (
     <LayoutWrapper>
@@ -164,75 +266,12 @@ const Initiatives = (props) => {
               Timeline
             </h1>
           </div>
-          <Year>2021</Year>
-          <ul>
-            <Step title="Head of Developer Relations at Vercel 👨‍👩‍👧‍👦">
-              I'm extremely excited about this new role helping grow the Next.js and
-              Vercel community.
-            </Step>
-            <Step title="10,000 YouTube Subscribers 🎥">
-              After many years on YouTube, I've started to figure this whole video
-              thing out.
-            </Step>
-            <Step title="5,000 Newsletter Subscribers 💌">
-              If you want to stay up-to-date on my latest work, it usually hits the
-              newsletter first. I try to send an update once a month.
-            </Step>
-          </ul>
-          <Divider />
-          <Year>2020</Year>
-          <ul>
-            <Step title="Joined ▲Vercel">
-              I'm excited to help grow the Next.js community and continue building
-              the optimal workflow for front-end developers.
-            </Step>
-            <Step title="Launched React 2025 💯">
-              Building a real SaaS application, from zero to production.
-            </Step>
-            <Step title="Emerging Technology Leader of the Year 🏆">
-              I was extremely honored to be one of five finalists nominated for this
-              award at the 2020 Prometheus Awards.
-            </Step>
-            <Step title="Got Married 🥳">
-              Great year for a wedding, huh? We had a small ceremony with family and
-              it was better than I could have imagined.
-            </Step>
-            <Step title="Became a Tech Lead 👨🏻‍💻">
-              Starting at the beginning of 2020, I moved into a tech leadership role
-              on an e-commerce development team at Hy-Vee.
-            </Step>
-            <Step title="Mastering Next.js made $10K 📈">
-              I taught hundreds of students from all over the world how to build web
-              applications. Exceeded my wildest expectations.
-            </Step>
-          </ul>
-          <Divider />
-          <Year>2019</Year>
-          <ul>
-            <Step title="Software Engineer III ✨">
-              Led design system architecture at Hy-Vee, building new components with
-              React, Storybook, and styled-components.
-            </Step>
-            <Step title="Mastering Next.js ⚛️">
-              Launched a 50+ lesson video course for building apps with Next.js and
-              React.
-            </Step>
-            <Step title="Bought a Townhome 🏡">
-              Who wants to do yardwork? Not me. Plus, Allie and I love living
-              downtown Des Moines.
-            </Step>
-            <Step title="Got Engaged 💍">
-              I asked my now fiancée, Allie, to marry me. She said yes! September
-              was a busy month, to say the least – I also spoke at three events and
-              sold my condo.
-            </Step>
-            <Step title="Spoke at Talent42 🎤">
-              I spoke to over 100 technical recruiting leaders from across the
-              country at Talent42 in Seattle during a 45-minute keynote.
-            </Step>
-          </ul>
+          { draw(active) }
           {isShowingFullTimeline ? (
-            <FullTimeline />
+            <>
+              <Divider />
+              {draw(inactive)}
+            </>
           ) : (
             <button
               type="button"
