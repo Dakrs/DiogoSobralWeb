@@ -63,7 +63,7 @@
         "technologies": ["react-native","nodejs","mongodb","vuejs"],
         "languages": ["JavaScript"],
         "short_description": "A digital drinking card solution for pubs and nightclubs.",
-        "description": "<p class=\"leading-relaxed\">Nite is a digital drinking card for pubs and nightclubs. Nite provides a system that empowers the customer's experience inside these establishments, allowing digital payments and remote control of the customer's card.</p><p class=\"leading-relaxed\">The development team had nine developers working in two mobile apps, a web app, and a back-end system. I was responsible for a mobile app and for managing the team's progress.</p><p class=\"leading-relaxed mb-4\">As a manager, I ensured that the team's goals were met and that everyone was motivated and in sync with our objective.</p>",
+        "description": "<p class=\"leading-relaxed mb-2\">Nite is a digital drinking card for pubs and nightclubs. Nite provides a system that empowers the customer's experience inside these establishments, allowing digital payments and remote control of the customer's card.</p><p class=\"leading-relaxed mb-2\">The development team had nine developers working in two mobile apps, a web app, and a back-end system. I was responsible for a mobile app and for managing the team's progress.</p><p class=\"leading-relaxed mb-4\">As a manager, I ensured that the team's goals were met and that everyone was motivated and in sync with our objective.</p>",
         "subtitle": "Product",
         "tags": ["Management","Mobile Dev","Web Dev"],
         "img": "/images/projects/nite.png",
@@ -82,7 +82,7 @@
         "date": "Dec, 2016",
         "technologies": ["haskell-gloss"],
         "languages": ["Haskell"],
-        "description": "",
+        "description": "<p class=\"leading-relaxed mb-2\">As part of the Informatics Laboratories Course, my first project in university was to develop a remake of the classic game Bomberman. The solution was fully developed using only functional programming.</p><p class=\"leading-relaxed mb-4\">Since it was my first project, the codebase isn't that great and could be improved. Nevertheless, the result was one of the best projects of the entire course and was added to the course's hall of fame.</p>",
         "short_description": "A remake of the classic Bomberman game.",
         "subtitle": "Game",
         "tags": ["Desktop Game"],
@@ -108,12 +108,19 @@
         "date": "Jun, 2019",
         "technologies": ["electron","vuejs"],
         "languages": ["JavaScript"],
-        "description": "",
+        "description": "<p class=\"leading-relaxed mb-2\">A Desktop application built using Vue.Js and Electron to keep track of weekly tasks. This project's main purpose was to get to know new technologies and frameworks.</p><p class=\"leading-relaxed mb-2\">The application could be synchronized with a Google account. This feature allowed an automatic addition of new tasks based on Google Calendar's schedule.</p>",
         "short_description": "A Desktop App to keep track of weekly tasks.",
         "subtitle": "Desktop App",
         "tags": ["Desktop Dev"],
         "img": "/images/projects/totasky.png",
-        "links": []
+        "links": [
+          {
+            "type": "github",
+            "href": "https://github.com/Dakrs/taskly",
+            "stext": "Check it on",
+            "htext": "Github"
+          }
+        ]
       },
       {
         "id": 3,
@@ -121,7 +128,7 @@
         "date": "Mar, 2021",
         "technologies": ["react","nextjs","mongodb"],
         "languages": ["JavaScript"],
-        "description": "",
+        "description": "<p class=\"leading-relaxed mb-2\">Meeting Braga is an annual athletics event that groups together both national and international participants. Since the event grows larger every year, the organization requested a website to display details about each event edition.</p><p class=\"leading-relaxed mb-4\">The website was developed using NextJs and MongoDB and has a management dashboard that updates the information related to every edition.</p>",
         "short_description": "A website built for the annual event, Meeting Braga.",
         "subtitle": "Web Develpment",
         "tags": ["Web Dev"],

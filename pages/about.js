@@ -9,7 +9,7 @@ const About = (props) => {
   return (
     <LayoutWrapper>
       <SectionContainer>
-        <div className="flex flex-col items-center justify-start">
+        <div className="min-h-75vh flex flex-col items-center justify-center">
           <div className="pt-6 pb-8 space-y-2 md:space-y-5">
             <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               {siteText.about.titleText}
