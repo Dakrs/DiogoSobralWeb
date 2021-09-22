@@ -148,55 +148,72 @@
     "2021": [
       {
         "title": "Research Assistant at INESCTEC",
-        "text": "Developing a consensus implementation of Disk Paxos using SPDK (a high performance toolkit for storage access)"
+        "text": "Developing a consensus implementation of Disk Paxos using SPDK (a high performance toolkit for storage access)",
+        "date": "Now - Apr, 2021"
       },
       {
         "title": "Restored a house in inhuman conditions",
-        "text": "As part of <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://en.justachange.pt\">Just a Change's</a> Camp In initiative, during 13 days, restored a house without the minimum living conditions for a 71-year-old woman in Loulé."
+        "text": "As part of <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://en.justachange.pt\">Just a Change's</a> Camp In initiative, during 13 days, restored a house without the minimum living conditions in Vila Pouca de Aguiar.",
+        "date": "Aug, 2021"
+      },
+      {
+        "title": "Restored a house in inhuman conditions",
+        "text": "As part of <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://en.justachange.pt\">Just a Change's</a> Camp In initiative, during 13 days, restored a house without the minimum living conditions for a 71-year-old woman in Loulé.",
+        "date": "Jul, 2021"
       },
       {
         "title": "Finished my journey at U.DREAM",
-        "text": "Completed U.DREAM's 2-year program whose objective was to develop social leadership."
+        "text": "Completed U.DREAM's 2-year program whose objective was to develop social leadership.",
+        "date": "Jun, 2021"
       },
       {
         "title": "Developed Meeting Braga's website",
-        "text": "Responsible for the development of the website for the athletics annual event, <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://meeting-braga.vercel.app\">Meeting Braga</a>. "
+        "text": "Responsible for the development of the website for the athletics annual event, <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://meeting-braga.vercel.app\">Meeting Braga</a>. ",
+        "date": "Apr - May, 2021"
       }
     ],
     "2020": [
       {
         "title": "Managed Nite's team",
-        "text": "Responsible for managing Nite's development team, solving internal issues, and guaranteeing that every member would successfully solve his challenges."
+        "text": "Responsible for managing Nite's development team, solving internal issues, and guaranteeing that every member would successfully solve his challenges.",
+        "date": "Sep, 2020 - Jan, 2021"
       },
       {
         "title": "Developed Nite's Mobile App",
-        "text": "Designed and developed <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://www.nite.pt/consumers\">Nite Customer's App</a> using React Native."
+        "text": "Designed and developed <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://www.nite.pt/consumers\">Nite Customer's App</a> using React Native.",
+        "date": "Nov, 2020 - Jan, 2021"
       },
       {
         "title": "Distributed meals at Virar a Página",
-        "text": "Once a week ran a route through my city distributing meals to families in need."
+        "text": "Once a week ran a route through my city distributing meals to families in need.",
+        "date": "Oct - Dec, 2020"
       },
       {
         "title": "Restored a house in inhuman conditions",
-        "text": "As part of <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://en.justachange.pt\">Just a Change's</a> Camp In initiative, during 13 days, restored a house without the minimum living conditions for a elderly man in Vila Pouca de Aguiar."
+        "text": "As part of <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://en.justachange.pt\">Just a Change's</a> Camp In initiative, during 13 days, restored a house without the minimum living conditions for a elderly man in Vila Pouca de Aguiar.",
+        "date": "Aug, 2020"
       }
     ],
     "2019": [
       {
         "title": "Joined U.DREAM's Program",
-        "text": "<a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://www.udream.pt\">U.DREAM</a> is an educational project which has the mission of educating students on social impact. This project focus on solving the difficulty of finding individual purpose, managing relations, and generating social impact in the community."
+        "text": "<a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://www.udream.pt\">U.DREAM</a> is an educational project which has the mission of educating students on social impact. This project focus on solving the difficulty of finding individual purpose, managing relations, and generating social impact in the community.",
+        "date": "Oct, 2019"
       },
       {
         "title": "Internship at AnyBrain",
-        "text": "Completed a 2-month summer internship at <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://anybrain.gg\">AnyBrain</a>."
+        "text": "Completed a 2-month summer internship at <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://anybrain.gg\">AnyBrain</a>.",
+        "date": "Jul - Sep, 2019"
       },
       {
         "title": "Head of External Relations Division at SEI'19",
-        "text": "Established the link between the organization of the event and all attendant companies. <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://2019.seium.org\">SEI</a> is an annual event organized by a group of software engineering students that focuses on enriching all the students of Software Engineering at the University of Minho with a set of workshops and talks about new themes."
+        "text": "Established the link between the organization of the event and all attendant companies. <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://2019.seium.org\">SEI</a> is an annual event organized by a group of software engineering students that focuses on enriching all the students of Software Engineering at the University of Minho with a set of workshops and talks about new themes.",
+        "date": "Sep, 2018 - Feb, 2019"
       },
       {
         "title": "Co-Director of Pedagogical Department of CeSIUM",
-        "text": "Responsible for the pedagogical department of <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://cesium.di.uminho.pt\">CeSIUM</a> whose focus was to complement software engineering students with talks and workshops about emerging themes."
+        "text": "Responsible for the pedagogical department of <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://cesium.di.uminho.pt\">CeSIUM</a> whose focus was to complement software engineering students with talks and workshops about emerging themes.",
+        "date": "Nov, 2018 - Jun, 2019"
       }
     ],
     "2016": [
