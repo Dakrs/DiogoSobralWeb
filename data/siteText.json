@@ -18,21 +18,53 @@
   },
   "TargetTimeline": {
     "subtitle": "Working Process",
-    "title": "Journey",
-    "description": "These are some of my journey's milestones since I joined college until now. These milestones refer to multiple areas such as impactful social initiatives, management opportunities, and working or technical experiences.",
+    "title": "Technical Journey",
+    "description": "These are some of my journey's milestones since I joined college until now. These milestones refer to areas related with my deegre and software engineering in general.",
     "buttonExploreNowText": "Explore More",
     "events": [
       {
         "s_date": "Apr, 2021",
         "f_date": "Current",
         "name": "Research Assistant at INESCTEC",
-        "text": ""
+        "text": "Developing an implementation of the consensus protocol Disk Paxos using a high-performance toolkit for hard drive access."
+      },
+      {
+        "s_date": "Mar, 2021",
+        "f_date": "Apr, 2021",
+        "name": "Meeting Braga Website",
+        "text": "Designed and developed a website to support the annual event, Meeting Braga. The solution enables the organization to manage and create new editions of the events."
       },
       {
         "s_date": "Oct, 2020",
         "f_date": "Feb, 2021",
         "name": "Project Manager at PEI Course",
         "text": "Project Manager of Nite, a digital drinking card for pubs and nightclubs. Nite provides a system that empowers the experience of a customer when at one of these establishments by allowing digital payments and remote control of each card. The team had nine people from different backgrounds and forced me to build team spirit, solve internal issues, and coordinate multiple tasks."
+      },
+      {
+        "s_date": "Jul, 2019",
+        "f_date": "Sep, 2021",
+        "name": "Summer Internship at AnyBrain",
+        "text": "Any Brain develops machine learning software to detect video game fraud. Worked in 2 distinct tasks. The first one required an analysis of multiple machine learning algorithms implementation such as LighGBM, H2O, and Sci-Kit in a company dataset. The second was the development of a local cache using Redis to reduce the charge placed in both the system and the network."
+      }
+    ]
+  },
+  "TargetTimelineSocial": {
+    "subtitle": "Working Process",
+    "title": "Side Journey",
+    "description": "These are some of the projects I have been involved in. They showed me a whole new world and played a huge role in the person I am today.",
+    "buttonExploreNowText": "Explore More",
+    "events": [
+      {
+        "s_date": "Jul, 2021",
+        "f_date": "Ago, 2021",
+        "name": "Camp In, Just a Change",
+        "text": "Rehabilitated two houses during the summer for people who live in inhuman conditions and don't have the resources nor the energy to change their lives. By improving their living conditions, we hope that they find the will needed to change their situation."
+      },
+      {
+        "s_date": "Mar, 2021",
+        "f_date": "Jun, 2021",
+        "name": "Volunteer at Bagos d'Ouro",
+        "text": "Helped a twelve year's old kid improving his score at math by developing study methods, overcoming self-confidence, and helping him discover a way to solve problems."
       },
       {
         "s_date": "Ago, 2020",
@@ -44,12 +76,6 @@
         "f_date": "Jun, 2021",
         "name": "Joined UDREAM's Program",
         "text": "U.DREAM is an educational project which has the mission of educating students to be social leaders. This project focus on solving three main issues related to the difficulty of finding individual purpose, managing relations, and generate social impact in your community. The members work not only with self-development but are also involved in social experiences like accompaniments to families whose kids have serious health issues or nursing homes."
-      },
-      {
-        "s_date": "Jul, 2019",
-        "f_date": "Sep, 2021",
-        "name": "Summer Internship at AnyBrain",
-        "text": "Any Brain develops machine learning software to detect video game fraud. Worked in 2 distinct tasks. The first one required an analysis of multiple machine learning algorithms implementation such as LighGBM, H2O, and Sci-Kit in a company dataset. The second was the development of a local cache using Redis to reduce the charge placed in both the system and the network."
       }
     ]
   },
