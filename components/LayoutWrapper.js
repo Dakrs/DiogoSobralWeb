@@ -14,7 +14,7 @@ const LayoutWrapper = ({ children, abs }) => {
           <div>
             <Link href="/" aria-label="Tailwind CSS Blog">
               <div className="flex items-center justify-between">
-                <div className="hidden h-6 text-2xl font-semibold sm:block">
+                <div className="ml-4 text-2xl font-semibold sm:block">
                   Diogo Sobral
                 </div>
               </div>

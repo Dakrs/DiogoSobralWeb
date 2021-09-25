@@ -18,13 +18,18 @@ aside.context .explanation {
   margin: 4em auto 0;
 }
 
+.noover {
+  overflow-y: visible !important;
+}
+
 .periodic-table {
   display: grid;
   grid-template-columns: repeat(7, 100px);
   grid-template-rows: repeat(3, 100px);
   grid-gap: 10px;
   margin: auto;
-  max-width: 1200px;
+  max-width: 790px;
+  height: 320px;
   justify-content: center;
 }
 

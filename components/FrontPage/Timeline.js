@@ -14,24 +14,18 @@ export default function Timeline(){
           <p className="text-sm md:text-base text-gray-900 dark:text-white mb-4">
             {siteText.TargetTimeline.description}
           </p>
-          <Link href="/initiatives">
-           <a className="bg-yellow-300 mx-auto hover:bg-yellow-500 text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
-            {siteText.TargetTimeline.buttonExploreNowText}
-           </a>
-          </Link>
+          <img className="w-9/12 mx-auto mt-4" src="images/undraw_Process_re_gws7.svg" />
         </div>
         <div className="ml-0 lg:w-2/3 sticky">
           <div className="container mx-auto w-full h-full">
             <div className="relative wrap overflow-hidden p-10 h-full">
-              <div className="border-2-2 border-yellow-555 absolute h-full border"
-                style={{right: "50%", border: "2px solid #FFC100", "borderRadius": "1%"}}></div>
-              <div className="border-2-2 border-yellow-555 absolute h-full border"
-                style={{left: "50%", border: "2px solid #FFC100", "borderRadius": "1%"}}></div>
+              <div className="border-yellow-300 absolute right-2/4 h-full lg:border"></div>
+              <div className="border-yellow-300 absolute left-2/4 h-full lg:border"></div>
               {siteText.TargetTimeline.events.map((item,i) => {
                 return (
-                  <div key={"TargetTimeline-event-" + i} className={ i % 2 == 0 ? "mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline" : "mb-8 flex justify-between items-center w-full right-timeline"}>
-                    <div className="order-1  w-5/12"></div>
-                    <div className={"order-1 w-5/12 px-4 py-4 " + (i % 2 === 0 ? "text-right":"")}>
+                  <div key={"TargetTimeline-event-" + i} className={ i % 2 == 0 ? "mb-8 flex justify-between flex-row-reverse items-center w-full" : "mb-8 flex justify-between items-center w-full"}>
+                    <div className="md:w-0/12 lg:w-5/12"></div>
+                    <div className={"md:w-12/12 lg:w-5/12 px-4 py-4 " + (i % 2 === 0 ? "text-right":"")}>
                       <p className="mb-3 text-base text-yellow-300">{
                         item.f_date ? (<>{item.s_date + " - " + item.f_date}</>) : (<>{item.s_date}</>)
                       }</p>

@@ -21,7 +21,7 @@ const Skills = (props) => {
               <div className="h-1 w-20 bg-blue-500 dark:bg-indigo-400 rounded"></div>
             </div>
           </div>
-          <div className="overflow-x-scroll">
+          <div className="flex flex-col items-center overflow-x-scroll lg:overflow-x-visible lg:overflow-y-visible">
             <div className="periodic-table">
               <div className="empty-spacer-1"></div>
               <div className="empty-spacer-2"></div>
@@ -39,13 +39,19 @@ const Skills = (props) => {
                 })
               }
             </div>
-            <div className="legend-table">
-              <div className="legend-table__wrapper">
-                  <span className="legend-table__marker social-media"></span><span className="legend-table__text bg-gray-900 dark:bg-white">General Stuff</span>
-                  <span className="legend-table__marker intense-work"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Front-End</span>
-                  <span className="legend-table__marker just-trying"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Performance</span>
-                  <span className="legend-table__marker fun-stuff"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Back-End</span>
-              </div>
+          </div>
+          <div className="legend-table flex justify-start flex-row sm:justify-center items-center flex-wrap">
+            <div>
+              <span className="legend-table__marker social-media"></span><span className="legend-table__text bg-gray-900 dark:bg-white">General Stuff</span>
+            </div>
+            <div>
+              <span className="legend-table__marker intense-work"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Front-End</span>
+            </div>
+            <div>
+              <span className="legend-table__marker just-trying"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Performance</span>
+            </div>
+            <div>
+              <span className="legend-table__marker fun-stuff"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Back-End</span>
             </div>
           </div>
         </div>
