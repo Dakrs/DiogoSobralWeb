@@ -1,7 +1,4 @@
-import { useState } from 'react';
-import SectionContainer from '@/components/SectionContainer';
 import siteText from '@/data/siteText';
-import Link from "next/link";
 
 export default function LeftTimeline(){
   return (
@@ -38,12 +35,7 @@ export default function LeftTimeline(){
           <p className="text-sm md:text-base text-gray-900 dark:text-white mb-4">
             {siteText.TargetTimelineSocial.description}
           </p>
-          <Link href="/initiatives">
-           <a className="bg-yellow-300 mx-auto hover:bg-yellow-500 text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
-            {siteText.TargetTimelineSocial.buttonExploreNowText}
-           </a>
-          </Link>
-          <img className="w-full" src="images/undraw_adventure_4hum.png" />
+          <img className="w-9/12 mx-auto mt-4" src="images/undraw_adventure_4hum.svg" />
         </div>
       </div>
     </div>
