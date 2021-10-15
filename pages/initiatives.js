@@ -39,7 +39,7 @@ const Step = ({ title, date ,children }) => {
               <path d="M22 4L12 14.01l-3-3" />
             </g>
           </svg>
-          <p className="font-medium text-gray-900 dark:text-gray-100">{title}</p>
+          <p className="font-medium text-gray-900 dark:text-gray-100">{parse(title)}</p>
         </div>
         <div className="flex flex-row items-center">
           <p className="text-sm title-font text-gray-500 tracking-widest">{date}</p>
