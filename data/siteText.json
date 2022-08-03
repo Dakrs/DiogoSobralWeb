@@ -5,10 +5,10 @@
   },
   "about": {
     "titleText": "About me",
-    "current_state": "Senior software engineer student",
-    "job_site": "University of Minho",
+    "current_state": "Software Engineer",
+    "job_site": "Co-Founder of XPadel Technologies",
     "description": [
-      "I'm a senior at the University of Minho currently undertaking a software engineering master. My areas of expertise are Distributed Systems and High-Performance Computing.",
+      "A new graduate in Integrated Master’s in Informatics Engineering at the University of Minho specialized in distributed systems and high-performance computing. Passionate about a wide range of areas varying from designing beautiful UIs to finding creative and efficient solutions.",
       "I consider myself a creative person therefore, creating things and seeing them grow as time goes by is one of my passions. Currently, I have developed multiple front-end projects however I aim to be a full-stack dev to impact and help in every part of the product I am working on.",
       "Though technical experiences and capabilities are essential, I believe that social experiences and dealing with social problems that are not present in my daily life provide unique opportunities to learn. Ultimately, this expands my way of thinking and develops my capability to understand the people around me."
     ]
@@ -96,9 +96,29 @@
         "links": [
           {
             "type": "website",
-            "href": "https://www.nite.pt",
+            "href": "https://nite-stand.vercel.app",
             "stext": "Find out more at",
-            "htext": "nite.pt"
+            "htext": "nite-stand.vercel.app"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "EMACII",
+        "date": "Mar, 2022",
+        "technologies": ["nextjs","nodejs","tailwindcss"],
+        "languages": ["JavaScript"],
+        "short_description": "Result's platform for European Master Athletics Championships Indoor",
+        "description": "<p class=\"leading-relaxed mb-2\">European Master Athletics Championships Indoor is an annual international athletics event where the best veteran athletes from all around the world compete.</p><p class=\"leading-relaxed mb-4\">As the front-end developer, developed the result's website where all information about the competitions was presented. The event counted with more than 2000 attendes and 460 competions.</p>",
+        "subtitle": "Web Develpment",
+        "tags": ["Web Dev"],
+        "img": "/images/projects/emaci22.png",
+        "links": [
+          {
+            "type": "website",
+            "href": "https://emaci22.vercel.app",
+            "stext": "Find out more at",
+            "htext": "emaci22.vercel.app"
           }
         ]
       },
@@ -171,11 +191,33 @@
     ]
   },
   "initiatives": {
+    "2022": [
+      {
+        "title": "Graduate in Integrated Master’s in Informatics Engineering at the University of Minho ",
+        "text": "Finished my degree in software engineering expertising in distributed systems and high-performance computing with GPA of 17/20.",
+        "date": "Jul, 2022"
+      },
+      {
+        "title": "Livre at <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://en.justachange.pt\">Just a Change's</a> Camp In Initiative in Óbidos 2022",
+        "text": "",
+        "date": "Jul, 2022"
+      },
+      {
+        "title": "Developed <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://emaci22.vercel.app\">EMACII's</a> Result Platform",
+        "text": "Front-end developer of the European Master Athletics Championships Indoor Result's Platform at Braga, 2022. The event counted with more than 2000 attendees and the platform presented the results, athletes and other essencial information for each competition.",
+        "date": "Mar, 2022 - Feb, 2022"
+      },
+      {
+        "title": "Freelancer using Fiverr",
+        "text": "Worked as a freelancer helping students solving problems and learning how to code.",
+        "date": "Fev, 2022 - Mar, 2021"
+      }
+    ],
     "2021": [
       {
         "title": "Research Assistant at INESCTEC",
         "text": "Developing a consensus implementation of Disk Paxos using SPDK (a high performance toolkit for storage access)",
-        "date": "Now - Apr, 2021"
+        "date": "Nov, 2021 - Apr, 2021"
       },
       {
         "title": "Coordinator at <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://en.justachange.pt\">Just a Change's</a> Keep Up Initiative",
@@ -211,7 +253,7 @@
       },
       {
         "title": "Developed Nite's Mobile App",
-        "text": "Designed and developed <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://www.nite.pt/consumers\">Nite Customer's App</a> using React Native.",
+        "text": "Designed and developed <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://https://nite-stand.vercel.app/consumers\">Nite Customer's App</a> using React Native.",
         "date": "Nov, 2020 - Jan, 2021"
       },
       {
