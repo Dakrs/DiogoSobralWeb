@@ -22,6 +22,12 @@ module.exports = {
       'screen': '100vh',
     },
     extend: {
+      screens: {
+        'xl': '1280px'
+      },
+      maxWidth: {
+        '5xl': '64rem'
+      },
       spacing: {
         '9/16': '56.25%',
       },

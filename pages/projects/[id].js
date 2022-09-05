@@ -42,9 +42,9 @@ const Project = () => {
   return (
     <LayoutWrapper>
       <section className="text-gray-600 dark:text-gray-400 dark:bg-gray-900 body-font overflow-hidden py-10">
-        <div className="container max-w-3xl px-4 mx-auto sm:px-6 xl:max-w-5xl xl:px-0">
-          <div className="lg:w-4/5 mx-auto flex flex-wrap">
-            <div className="lg:w-5/5 w-full flex flex-col">
+        <div className="container max-w-3xl px-4 mx-auto sm:px-6 lg:max-w-5xl xl:px-0">
+          <div className="w-full flex flex-wrap">
+            <div className="w-full flex flex-col">
               <h2 className="text-sm title-font text-gray-500 tracking-widest">PROJECT NAME</h2>
               <h1 className="text-gray-900 dark:text-white text-3xl title-font font-medium">{project_data.name}</h1>
               <h3 className="text-xs title-font text-gray-500 tracking-widest mb-4">{project_data.date}</h3>
