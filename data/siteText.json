@@ -1,7 +1,7 @@
 {
   "hero": {
     "mainText": "Hey, I’m Diogo Sobral",
-    "subText": "Senior at the University of Minho, undertaking a computer science master."
+    "subText": "A fresh graduate Software Engineer from University of Minho"
   },
   "about": {
     "titleText": "About me",
@@ -23,8 +23,20 @@
     "buttonExploreNowText": "Explore More",
     "events": [
       {
+        "s_date": "Apr, 2022",
+        "f_date": "Present",
+        "name": "XPadel Technologies",
+        "text": "Currently developing a product to empower the user experience of padel players and courts."
+      },
+      {
+        "s_date": "Feb, 2022",
+        "f_date": "Mar, 2022",
+        "name": "Result's Platform of EMACI 22",
+        "text": "Developed the front-end for the European Master Athletics Championships Indoor. An event that counted with 2000+ attendes from 40+ countries."
+      },
+      {
         "s_date": "Apr, 2021",
-        "f_date": "Current",
+        "f_date": "Nov, 2021",
         "name": "Research Assistant at INESCTEC",
         "text": "Developing an implementation of the consensus protocol Disk Paxos using a high-performance toolkit for hard drive access."
       },
@@ -54,6 +66,22 @@
     "description": "These are some of the projects I have been involved in. They showed me a whole new world and played a huge role in the person I am today.",
     "buttonExploreNowText": "Explore More",
     "events": [
+      {
+        "s_date": "Ago, 2022",
+        "name": "Coordinated a team for 15 days in Chamusca's Camp",
+        "text": "Managed and coordinated a team of 5 during the house intervention in Chamusca. Was responsible for the success of the program and had to face many challenges to ensure that everything was completed on time."
+      },
+      {
+        "s_date": "Jul, 2022",
+        "name": "Integrated the direction team of Óbidos's Camp",
+        "text": "With the \"Livre\" role, supported the house rehabilitation teams with anything needed."
+      },
+      {
+        "s_date": "2021",
+        "f_date": "2022",
+        "name": "Coordinated teams in Just a Change's Initiatives",
+        "text": "Coordinated and managed multiple teams in both \"Keep Up\" and \"All In\" initiatives during 2021/2022."
+      },
       {
         "s_date": "Jul, 2021",
         "f_date": "Ago, 2021",
@@ -193,13 +221,23 @@
   "initiatives": {
     "2022": [
       {
+        "title": "Coordinated a team of 5 during 15 days in <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://en.justachange.pt\">Just a Change's</a> Chamusca Camp",
+        "text": "Was responsible for the intervention in a house in Chamusca. During 15 days, coordinated, scheduled and managed a team of 5 ensuring that our impact was successful.",
+        "date": "Ago, 2022"
+      },
+      {
         "title": "Graduate in Integrated Master’s in Informatics Engineering at the University of Minho ",
         "text": "Finished my degree in software engineering expertising in distributed systems and high-performance computing with GPA of 17/20.",
         "date": "Jul, 2022"
       },
       {
+        "title": "Defended my master thesis, Consensus in High Performance Computing",
+        "text": "Presented my master thesis work which scored a mark of 18 out of 20.",
+        "date": "Jul, 2022"
+      },
+      {
         "title": "Livre at <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://en.justachange.pt\">Just a Change's</a> Camp In Initiative in Óbidos 2022",
-        "text": "",
+        "text": "Integrated the direction of Óbidos's Camp as \"Livre\". Was responsible for supporting the teams on the ground with anything they needed.",
         "date": "Jul, 2022"
       },
       {
@@ -238,6 +276,11 @@
         "title": "Finished my journey at U.DREAM",
         "text": "Completed U.DREAM's 2-year program whose objective was to develop social leadership.",
         "date": "Jun, 2021"
+      },
+      {
+        "title": "Volunteer at Bagos d'Ouro",
+        "date": "Mar, 2021 - Jun, 2021",
+        "text": "Helped a twelve year's old kid improving his score at math by developing study methods, overcoming self-confidence, and helping him discover a way to solve problems."
       },
       {
         "title": "Developed Meeting Braga's website",
