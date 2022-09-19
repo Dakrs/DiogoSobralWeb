@@ -41,7 +41,7 @@ const Project = () => {
 
   return (
     <LayoutWrapper>
-      <section className="text-gray-600 dark:text-gray-400 dark:bg-gray-900 body-font overflow-hidden py-10">
+      <section className="text-gray-600 dark:text-gray-400 dark:bg-gray-900 body-font overflow-hidden py-10 min-h-[calc(100vh-252px)] sm:min-h-[calc(100vh-248px)]">
         <div className="container max-w-3xl px-4 mx-auto sm:px-6 lg:max-w-5xl xl:px-0">
           <div className="w-full flex flex-wrap">
             <div className="w-full flex flex-col">

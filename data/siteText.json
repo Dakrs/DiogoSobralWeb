@@ -111,6 +111,52 @@
     "targetProjects": [0,1,3],
     "projects_description": [
       {
+        "id": 5,
+        "name": "XPadel Technologies",
+        "date": "Mar, 2022 - Present",
+        "technologies": ["NextJs","Tailwindcss","AWS Kinesis","Nodejs","Express","Mongodb","Apple Watch App"],
+        "languages": ["JavaScript"],
+        "short_description": "A Inovative Product to empower padel gameplay",
+        "description": "<p class=\"leading-relaxed mb-2\">XPadel is a new company that wants to enter the padel industry by renting courts. As a differentiable factor, Alexandre Pacheco and I were in charge of designing and developing a product to enhance the playing experience.</p><p class=\"leading-relaxed mb-2\">We came up with a solution of gearing up each court with a television and a camera. These gadgets automatically record each padel session and present the live score to the players. After the session ends, the players may access a playback video, review the match's results, and download clips.</p><p class=\"leading-relaxed mb-2\">Our platform splits the back-end system into microservices and controls the cameras remotely using raspberry pi. Each raspberry connects to AWS Kinesis Video Streams and uploads the video when necessary.</p><p class=\"leading-relaxed mb-4\">The front-end side of the product uses Nextjs and tailwindcss. As part of the live scoring feature, we also provide an Apple Watch shipped with our private application. It enables highlights and the actualization of the current score.</p>",
+        "subtitle": "Product",
+        "tags": ["Product","Full-Stack","Microservices","Iot","AWS"],
+        "img": "/images/projects/1024x1024-logo-X.png",
+        "links": [
+          {
+            "type": "website",
+            "href": "https://xpadel.vercel.app",
+            "stext": "Find out more at",
+            "htext": "xpadel.vercel.app"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "SPDK-Disk Paxos",
+        "date": "Feb, 2021 - Jun, 2022",
+        "technologies": ["NVMe","C++17","GCP","SPDK"],
+        "languages": ["C++", "Shell"],
+        "short_description": "Consensus in High Performance Computing",
+        "description": "<p class=\"leading-relaxed mb-2\">My dissertation work aimed to evaluate if NVMe Devices, when used with SPDK, could improve the existing consensus-related work. These two new technologies present performance improvements. The NVMe devices bought the request’s latency of solid-state devices to the microseconds range, while the Storage Performance Tool Kit (SPDK) provided better software for high-performance storage applications.</p><p class=\"leading-relaxed mb-2\">Disk Paxos is a consensus algorithm that relies upon writing and reading in a network of storage devices to achieve a distributed agreement. As part of my thesis, I developed a solution to consensus by combining Disk Paxos with SPDK using C++17.</p><p class=\"leading-relaxed mb-4\">In the latest stage, I deployed the application in the Google Cloud Platform and evaluated its performance with a variety of configurations and machines.</p>",
+        "subtitle": "Consensus Solutions",
+        "tags": ["HPC Computing","Google Cloud Platform","Consensus","Distributed Systems"],
+        "img": "/images/projects/thesis.png",
+        "links": [
+          {
+            "type": "website",
+            "href": "https://diogosobral.vercel.appw/thesis.pdf",
+            "stext": "Read more information",
+            "htext": "here"
+          },
+          {
+            "type": "github",
+            "href": "https://github.com/Dakrs/SPDK-DISKPAXOS",
+            "stext": "Check it on",
+            "htext": "Github"
+          }
+        ]
+      },
+      {
         "id": 0,
         "name": "Nite",
         "date": "Jan, 2021",
@@ -243,12 +289,12 @@
       {
         "title": "Developed <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://emaci22.vercel.app\">EMACII's</a> Result Platform",
         "text": "Front-end developer of the European Master Athletics Championships Indoor Result's Platform at Braga, 2022. The event counted with more than 2000 attendees and the platform presented the results, athletes and other essencial information for each competition.",
-        "date": "Mar, 2022 - Feb, 2022"
+        "date": "Feb, 2022 - Mar, 2022"
       },
       {
         "title": "Freelancer using Fiverr",
         "text": "Worked as a freelancer helping students solving problems and learning how to code.",
-        "date": "Fev, 2022 - Mar, 2021"
+        "date": "Mar, 2021 - Fev, 2022"
       }
     ],
     "2021": [
