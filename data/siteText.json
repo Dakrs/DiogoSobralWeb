@@ -1,20 +1,20 @@
 {
   "hero": {
     "mainText": "Hey, I’m Diogo Sobral",
-    "subText": "A fresh graduate Software Engineer from University of Minho"
+    "subText": "A software engineer eager to learn and create stuff."
   },
   "about": {
     "titleText": "About me",
     "current_state": "Software Engineer",
-    "job_site": "Co-Founder of XPadel Technologies",
+    "job_site": "Backend Engineer @ uphold",
     "description": [
-      "A new graduate in Integrated Master’s in Informatics Engineering at the University of Minho specialized in distributed systems and high-performance computing. Passionate about a wide range of areas varying from designing beautiful UIs to finding creative and efficient solutions.",
+      "Graduated in Integrated Master’s in Informatics Engineering at the University of Minho specialized in distributed systems and high-performance computing. Passionate about a wide range of areas varying from designing beautiful UIs to finding creative and efficient solutions.",
       "I consider myself a creative person therefore, creating things and seeing them grow as time goes by is one of my passions. Currently, I have developed multiple front-end projects however I aim to be a full-stack dev to impact and help in every part of the product I am working on.",
       "Though technical experiences and capabilities are essential, I believe that social experiences and dealing with social problems that are not present in my daily life provide unique opportunities to learn. Ultimately, this expands my way of thinking and develops my capability to understand the people around me."
     ]
   },
   "skills": {
-    "description": "Technologies and languages that I got in touch with to develop the multiple projects I was in over the years."
+    "description": "Tec knowledge and skills that I got by developing the multiple projects I was in over the years and from my working experiences."
   },
   "TargetTimeline": {
     "subtitle": "Working Process",
@@ -23,9 +23,15 @@
     "buttonExploreNowText": "Explore More",
     "events": [
       {
+        "s_date": "Dec, 2022",
+        "f_date": "Present",
+        "name": "Joined Uphold Engineering team",
+        "text": "Working as a backend engineer at Uphold in the backoffice team."
+      },
+      {
         "s_date": "Apr, 2022",
         "f_date": "Present",
-        "name": "XPadel Technologies",
+        "name": "revify - A tech product",
         "text": "Currently developing a product to empower the user experience of padel players and courts."
       },
       {
@@ -112,21 +118,21 @@
     "projects_description": [
       {
         "id": 5,
-        "name": "XPadel Technologies",
+        "name": "revify",
         "date": "Mar, 2022 - Present",
         "technologies": ["NextJs","Tailwindcss","AWS Kinesis","Nodejs","Express","Mongodb","Apple Watch App"],
         "languages": ["JavaScript"],
         "short_description": "A Inovative Product to empower padel gameplay",
-        "description": "<p class=\"leading-relaxed mb-2\">XPadel is a new company that wants to enter the padel industry by renting courts. As a differentiable factor, Alexandre Pacheco and I were in charge of designing and developing a product to enhance the playing experience.</p><p class=\"leading-relaxed mb-2\">We came up with a solution of gearing up each court with a television and a camera. These gadgets automatically record each padel session and present the live score to the players. After the session ends, the players may access a playback video, review the match's results, and download clips.</p><p class=\"leading-relaxed mb-2\">Our platform splits the back-end system into microservices and controls the cameras remotely using raspberry pi. Each raspberry connects to AWS Kinesis Video Streams and uploads the video when necessary.</p><p class=\"leading-relaxed mb-4\">The front-end side of the product uses Nextjs and tailwindcss. As part of the live scoring feature, we also provide an Apple Watch shipped with our private application. It enables highlights and the actualization of the current score.</p>",
+        "description": "<p class=\"leading-relaxed mb-2\">As the padel industry grows around Portugal, it is import for each court to find new ways to attract and maintain their customers. Alexandre Pacheco and I </p><p class=\"leading-relaxed mb-2\">We came up with a solution of gearing up each court with a television and a camera. These gadgets automatically record each padel session and present the live score to the players. After the session ends, the players may access a playback video, review the match's results, and download clips.</p><p class=\"leading-relaxed mb-2\">Our platform splits the back-end system into microservices and controls the cameras remotely using raspberry pi. Each raspberry connects to AWS Kinesis Video Streams and uploads the video when necessary.</p><p class=\"leading-relaxed mb-4\">The front-end side of the product uses Nextjs and tailwindcss. As part of the live scoring feature, we also provide an Apple Watch shipped with our private application. It enables highlights and the actualization of the current score.</p>",
         "subtitle": "Product",
         "tags": ["Product","Full-Stack","Microservices","Iot","AWS"],
         "img": "/images/projects/1024x1024-logo-X.png",
         "links": [
           {
             "type": "website",
-            "href": "https://xpadel.vercel.app",
+            "href": "https://revify.pt",
             "stext": "Find out more at",
-            "htext": "xpadel.vercel.app"
+            "htext": "revify.pt"
           }
         ]
       },
@@ -144,7 +150,7 @@
         "links": [
           {
             "type": "website",
-            "href": "https://diogosobral.vercel.appw/thesis.pdf",
+            "href": "https://diogosobral.vercel.app/thesis.pdf",
             "stext": "Read more information",
             "htext": "here"
           },
@@ -193,6 +199,12 @@
             "href": "https://emaci22.vercel.app",
             "stext": "Find out more at",
             "htext": "emaci22.vercel.app"
+          },
+          {
+            "type": "github",
+            "href": "https://github.com/Dakrs/emaci22",
+            "stext": "Check it on",
+            "htext": "Github"
           }
         ]
       },
@@ -265,9 +277,16 @@
     ]
   },
   "initiatives": {
+    "2023": [
+      {
+        "title": "Joined Uphold Engineering team",
+        "text": "Started working as a backend engineer at Uphold. Uphold is a large crypto exchange which processes millions of transactions each day.",
+        "date": "Dec, 2022 - Present"
+      }
+    ],
     "2022": [
       {
-        "title": "Coordinated a team of 5 during 15 days in <a class=\"extrabold text-black dark:text-indigo-400\" href=\"https://en.justachange.pt\">Just a Change's</a> Chamusca Camp",
+        "title": "Coordinated a team of 5 during 15 days in <a class=\"extrabold text-green-500 dark:text-indigo-400\" href=\"https://en.justachange.pt\">Just a Change's</a> Chamusca Camp",
         "text": "Was responsible for the intervention in a house in Chamusca. During 15 days, coordinated, scheduled and managed a team of 5 ensuring that our impact was successful.",
         "date": "Ago, 2022"
       },

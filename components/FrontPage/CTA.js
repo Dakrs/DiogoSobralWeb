@@ -9,12 +9,12 @@ const CTA = (props) => {
               Find out more
             </h1>
             <div className="w-full flex flex-row justify-center mt-4 flex-wrap">
-              <Link href="/projects">
+              <Link href="/projects" legacyBehavior>
                <a className="text-white text-center bg-yellow-300 w-36 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-500 rounded text-lg mt-10 sm:mt-0 mx-2">
                 Projects
                </a>
               </Link>
-              <Link href="/initiatives">
+              <Link href="/initiatives" legacyBehavior>
                <a className="text-white text-center bg-yellow-300 w-36 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-500 rounded text-lg mt-10 sm:mt-0 mx-2">
                 Initiatives
                </a>

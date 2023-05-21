@@ -1,5 +1,15 @@
-const withSvgr = require("next-svgr");
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/i,
+      issuer: /\.[jt]sx?$/,
+      use: ['@svgr/webpack'],
+    });
 
-module.exports = withSvgr({
-  // your config for other plugins or the general next.js here...
-});
+    return config;
+  },
+  reactStrictMode: true
+}
+
+module.exports = nextConfig

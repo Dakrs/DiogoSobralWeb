@@ -1,105 +1,105 @@
 {
   "skills": [
     {
-      "name": "C++",
-      "sign": "CP",
-      "desc": "Experience working with C++ for parallelism",
+      "name": "Nodejs",
+      "sign": "Ndj",
+      "desc": "1.5 years worth of working experience",
       "type": "social-media"
     },
     {
-      "name": "C",
-      "sign": "C",
-      "desc": "Expert level working with C language",
+      "name": "Typescript",
+      "sign": "Ts",
+      "desc": "1.5 years worth of working experience",
       "type": "social-media"
     },
     {
-      "name": "MySQL",
-      "sign": "SQl",
-      "desc": "Experience working with MySQL",
+      "name": "NextJs",
+      "sign": "Nxt",
+      "desc": "2 year of experience working in personal projects",
       "type": "fun-stuff"
     },
     {
-      "name": "Java",
-      "sign": "Jv",
-      "desc": "Expert level working with Java",
+      "name": "Kubernetes",
+      "sign": "K9s",
+      "desc": "General know-how using Kubernetes",
       "type": "social-media"
     },
     {
-      "name": "Javascript",
-      "sign": "Js",
-      "desc": "Expert level working with Javascript",
+      "name": "Message Q.",
+      "sign": "MQ",
+      "desc": "Worked with nsq and zeromq message brokers",
       "type": "social-media"
     },
     {
-      "name": "Vue",
-      "sign": "Vu",
-      "desc": "Worked with Vue and Electron to build a desktop application",
+      "name": "Learner",
+      "sign": "FL",
+      "desc": "Eager to learn, try new stuff and embrace new challenges",
       "type": "intense-work"
     },
     {
-      "name": "React",
-      "sign": "Re",
-      "desc": "Devolped multiple applications using Nextjs",
+      "name": "Leadership",
+      "sign": "Le",
+      "desc": "Lead multiple teams in volunteer programs",
       "type": "intense-work"
-    },
-    {
-      "name": "C++ Thd.",
-      "sign": "CT",
-      "desc": "Developed some implementations for both CRS and COO SpMV using C++11 threads",
-      "type": "just-trying"
-    },
-    {
-      "name": "OpenMP",
-      "sign": "OP",
-      "desc": "Experience working in OpenMP to build parallel solutions",
-      "type": "just-trying"
-    },
-    {
-      "name": "MongoDB",
-      "sign": "MB",
-      "desc": "Experience working with MongoDB",
-      "type": "fun-stuff"
-    },
-    {
-      "name": "Haskell",
-      "sign": "Hs",
-      "desc": "Good level working with Haskell",
-      "type": "social-media"
     },
     {
       "name": "Python",
       "sign": "Py",
-      "desc": "Expert level working with Python",
-      "type": "social-media"
+      "desc": "Worked with Python developing scripts, bots for game and image recognition",
+      "type": "just-trying"
     },
     {
-      "name": "Electron",
-      "sign": "El",
-      "desc": "Worked with Vue and Electron to build a desktop application",
-      "type": "intense-work"
+      "name": "C & C++",
+      "sign": "CP",
+      "desc": "Knowledge of low level programming languages, memory management and performance and parallelism solutions and optimizations",
+      "type": "just-trying"
     },
     {
       "name": "React Nat.",
       "sign": "Rn",
       "desc": "Design and developed the mobile app of Nite",
+      "type": "fun-stuff"
+    },
+    {
+      "name": "Postgres",
+      "sign": "Pg",
+      "desc": "Worked with postgres databases",
+      "type": "social-media"
+    },
+    {
+      "name": "D. Systems",
+      "sign": "DS",
+      "desc": "Good knowledge of distributed systems, architectures and large scale solutions",
+      "type": "social-media"
+    },
+    {
+      "name": "Creativity",
+      "sign": "Cr",
+      "desc": "Love for designing and thinking about new concepts and solutions",
       "type": "intense-work"
     },
     {
-      "name": "Java Thd.",
-      "sign": "JT",
-      "desc": "Experience working with Java Thread for both performance and concorrency",
+      "name": "Focus",
+      "sign": "Fo",
+      "desc": "I am a highly focused and motivated individual",
+      "type": "intense-work"
+    },
+    {
+      "name": "Java",
+      "sign": "Jv",
+      "desc": "Worked with Java to implement high-performance math algorithms",
       "type": "just-trying"
     },
     {
-      "name": "MPI",
-      "sign": "MI",
-      "desc": "Developed some implementations using MPI for both CRS and COO SpMV",
+      "name": "MongoDB",
+      "sign": "MB",
+      "desc": "Worked with MongoDB in an internship and in several personal projects",
       "type": "just-trying"
     },
     {
-      "name": "Nodejs",
-      "sign": "Ndj",
-      "desc": "Developed multiple REST applications using Nodejs",
+      "name": "Tailwindcss",
+      "sign": "TW",
+      "desc": "Worked with Tailwindcss in multiple front-end projects",
       "type": "fun-stuff"
     }
   ]

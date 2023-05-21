@@ -42,16 +42,16 @@ const Skills = (props) => {
           </div>
           <div className="legend-table flex justify-start flex-row sm:justify-center items-center flex-wrap">
             <div>
-              <span className="legend-table__marker social-media"></span><span className="legend-table__text bg-gray-900 dark:bg-white">General Stuff</span>
+              <span className="legend-table__marker social-media"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Backend Stuff</span>
             </div>
             <div>
-              <span className="legend-table__marker intense-work"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Front-End</span>
+              <span className="legend-table__marker intense-work"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Soft-skills</span>
             </div>
             <div>
-              <span className="legend-table__marker just-trying"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Performance</span>
+              <span className="legend-table__marker just-trying"></span><span className="legend-table__text bg-gray-900 dark:bg-white">General</span>
             </div>
             <div>
-              <span className="legend-table__marker fun-stuff"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Back-End</span>
+              <span className="legend-table__marker fun-stuff"></span><span className="legend-table__text bg-gray-900 dark:bg-white">Frontend Stuff</span>
             </div>
           </div>
         </div>
